@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./Assets/main.css" />
+    <title>Meal</title>
+  </head>
+  <body>
+    <header class="">
+      <nav class="navbar navbar-expand-sm bg-light">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item pr-3">
+            <a href="./index.html">Home </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="container mt-4" id="searchEngine">
+      <div class="row">
+        <div class="col-7 m-auto mt-5">
+          <h5>Favourite Meals Lists</h5>
+          <table class="table table-dark table-striped text-left">
+            <thead>
+              <tr class="text-left pl-4">
+                <th scope="col" class="text-left pl-4">Meal Name</th>
+                <th scope="col" class="text-left pl-4" style="width: 120px">
+                  Favourites
+                </th>
+              </tr>
+            </thead>
+            <tbody id="mealData"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <script src="./Assets/favourite.js"></script>
+  </body>
+</html>

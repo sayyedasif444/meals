@@ -1,0 +1,27 @@
+.circleBg {
+  background-color: goldenrod;
+  padding: 4px 6px;
+  font-size: 10px;
+  border-radius: 16px;
+  position: absolute;
+  min-width: 22px;
+  text-align: center;
+  top: 2px;
+}
+.centerit {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+}
+#search,
+#search2 {
+  width: calc(100% - 150px);
+  float: left;
+}
+#searchbtn {
+  width: 140px;
+}
+.clickable {
+  cursor: pointer;
+}
