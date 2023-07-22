@@ -1,3 +1,4 @@
+//trigger function onload of page
 document.addEventListener('DOMContentLoaded', function (event) {
   var favouriteList = [];
   if (localStorage.getItem('favourite_list')) {

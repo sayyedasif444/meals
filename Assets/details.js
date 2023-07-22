@@ -1,7 +1,8 @@
+//trigger function onload of page
 document.addEventListener('DOMContentLoaded', function (event) {
   var id = window.location.search.split('id=')[1];
   mealDetails(id);
-  countFavourite()
+  countFavourite();
 });
 
 function mealDetails(id) {
