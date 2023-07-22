@@ -1,10 +1,18 @@
+//storigin the data for local references
 var dataSet = [];
+
+//trigger function onload of page
 document.addEventListener('DOMContentLoaded', function (event) {
   getMeals('');
 });
 
+//trigger when user types on search box
 document.getElementById('search').addEventListener('input', (e) => {
   getMeals(e.currentTarget.value);
+});
+
+document.getElementById('searchbtn').addEventListener('click', (e) => {
+  getMeals(document.getElementById('search').value);
 });
 
 function getMeals(search) {
